@@ -1,0 +1,9 @@
+int a is 5.
+text b is "/".
+loop 3 times {
+     loop 5 times write a.
+     loop 2 times {
+        write "*",b.
+     }
+     newLine.
+}

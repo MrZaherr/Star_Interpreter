@@ -1,0 +1,60 @@
+int count is 5.
+text errMsg is "This is a text.".
+int a is 1, b is 2.    /*is possible*/
+int myInt is myInt +1.  /* Can be used in order to increment myInt */
+write myInt.
+newLine.
+myInt is 3 - 8 .  /* This will assign value 0 to myInt*/
+write myInt.
+newLine.
+write errMsg.
+newLine.
+int k,o.
+k is 99.
+write k.
+newLine.
+o is 99999999888.
+write o.
+
+
+text myString  /* This line can be divided into two*/
+is "Hello",str2.    /* like this. And comments may be within*/
+
+/* As you might have noticed
+   this is a comment. */
+str2 is " This is a try.".   
+write myString.
+newLine.
+myString is myString + str2.
+write myString.
+newLine.
+myString is myString - "This".
+myString is myString + "good.".
+write myString.
+
+
+text varName is "Something...: ", sth is "Enter another string : ".
+read "Change the varName: ", varName.
+write varName.
+newLine.
+read sth, varName.
+write varName.
+newLine.
+write "varname is: ", varName," ","sth is: ",sth.
+read varName.
+write "varname is: ", varName," ".
+newLine.
+int a.
+read "Write an integer value for a: ",a.
+write " ",a.
+
+
+int a is 5.
+text b is "/".
+loop 3 times {
+     loop 5 times write a.
+     loop 2 times {
+        write "*",b.
+     }
+     newLine.
+}
